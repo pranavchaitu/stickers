@@ -6,7 +6,7 @@ export default function({ imageUrl } : {
     return (
         <Image 
             src={imageUrl}
-            className="rounded-md"
+            className="rounded-md mb-8"
             width={320}
             height={440}
         />
